@@ -1,0 +1,10 @@
+#eclipse files
+.classpath
+.project
+.settings/**
+
+#generated files
+build/**
+
+#META-INF files
+/WebContent/META-INF/MANIFEST.MF
