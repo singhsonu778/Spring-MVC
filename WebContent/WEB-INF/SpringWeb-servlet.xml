@@ -14,11 +14,6 @@
 	</bean>
 
 	<bean class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
-		<property name="exceptionMappings">
-			<props>
-				<prop key="com.sonu.springmvc.SpringException">springException</prop>
-			</props>
-		</property>
 		<property name="defaultErrorView" value="error" />
 	</bean>
 

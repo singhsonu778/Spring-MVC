@@ -5,6 +5,7 @@
 	    <title>Spring MVC</title>
 	</head>
 	<body>
-		<h2>An error occured</h2>
+		<h2>Spring Page Redirection</h2>
+		<a href="/SpringMVC/redirect">Click here for redirection</a>
 	</body>
 </html>
