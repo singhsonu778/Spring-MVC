@@ -16,9 +16,9 @@ public class WebController {
 		return "index";
 	}
 
-	@RequestMapping(value = "/redirect", method = RequestMethod.GET)
+	@RequestMapping(value = "/staticPage", method = RequestMethod.GET)
 	public String redirect() {
-		return "redirect:finalPage";
+		return "redirect:/pages/final.html";
 	}
 
 	@RequestMapping(value = "/finalPage", method = RequestMethod.GET)
@@ -26,8 +26,4 @@ public class WebController {
 		return "final";
 	}
 
-	@RequestMapping(value = "**", method = RequestMethod.GET)
-	public String other() {
-		throw new RuntimeException();
-	}
 }

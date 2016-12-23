@@ -6,6 +6,6 @@
 	</head>
 	<body>
 		<h2>Spring Page Redirection</h2>
-		<a href="/SpringMVC/redirect">Click here for redirection</a>
+		<a href="/SpringMVC/staticPage">Click here for redirection to static page</a>
 	</body>
 </html>
